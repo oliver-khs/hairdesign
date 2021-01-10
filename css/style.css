@@ -1,0 +1,148 @@
+.bg-blue{
+	background-color: blue;
+	color:#FFF;
+	padding: 10px 0px 0px;
+}
+
+.bg-blue .fa-phone, .bg-blue .fa-envelope{
+	color:gold;
+	font-size:20px;
+	float: left;
+	line-height: 50px;
+}
+
+.bg-blue .para{
+	margin-left:30px;
+}
+
+/*****Menu CSS*********/
+
+.menu{
+	background-color: #DDD;
+	padding:10px 0px;
+}
+
+.bg-light {
+    background-color: #DDD!important;
+    text-transform: uppercase;
+}
+
+.navbar{
+	padding: 20px;
+}
+
+.nopadding{
+	padding-left:0px;
+	padding-right: 0px;
+}
+
+
+/********About Section ***********/
+
+.about-section{
+	
+}
+
+.about-section h1{
+	font-size: 28px;
+	color: blue;
+}
+
+.about-section h1 span{
+	color:#333;
+	font-size: 20px;
+}
+
+/********Products Section CSS**********/
+.products_section{
+	background-image: url(../img/background_image.jpg);
+	padding:30px 0px;
+}
+
+
+
+.products_section h2{
+	position: relative;
+}
+
+.products_section h2:before, .products_section h2:after{
+	content:"";
+	width:430px;
+	border-top:2px dotted #333;
+	position: absolute;
+	top:30px;
+}
+
+.products_section h2:before{	
+	left:0px;
+	}
+
+.products_section h2:after{
+	right:0px;
+}
+
+.products_section .img-box{
+	border:1px solid #333;
+	box-shadow: 1px 1px 10px #222;
+	background-color: #F9F9F9;
+}
+
+.products_section .title-box h4.title{
+	color:#00aaff;
+}
+
+
+.products_section .title-box h6.color_blue{
+	color:#0000ff;
+}
+
+/************** contact section css  *********************/
+
+.contact{
+	background: url('../img/footer-bg.jpg');
+	background-position: top;
+}
+
+.contact h2{
+	text-transform: uppercase;
+	font-size: 20px;
+	position: relative;
+}
+
+.contact h2:before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 3px;
+	background-color: gold;
+	top: 35px;
+}
+
+.quick_link ul{
+	padding: 0px;
+	list-style: none;
+}
+
+.follow_on span{
+	background-color: #0000ff;
+	padding: 10px;	
+	color: #FFF;
+	border-radius: 50%;
+}
+
+.location .google_map{
+	
+	border-radius: 10px;
+}
+
+
+/********* copyrigh section css ************/
+
+.copyright{
+	background-color: #0000ff;
+	color: #DDD;
+}
+
+.copyright p a{
+	color: gold;
+}
